@@ -1,17 +1,17 @@
 $(document).ready(function(){
     $("#sample-button").click(function(){
-        $("#chem-border").delay(1).fadeIn();
-        $("#benzene").delay(1).fadeIn();
-        $("#acetaldehyde").delay(1).fadeIn(); 
-        $("#ethyl").delay(1).fadeIn();         
+        $("#chem-border").delay(0).fadeIn();
+        $("#benzene").delay(10).fadeIn();
+        $("#acetaldehyde").delay(10).fadeIn(); 
+        $("#ethyl").delay(10).fadeIn();         
     });
 
     $("#benzene").click(function() {
         $("#injector").hide();
         $("#green-injector").hide();
         $("#blue-injector").hide();
-        $("#red-injector").delay(1).fadeIn();
-    });
+        $("#red-injector").delay(10).fadeIn();	
+   });
 
     $("#acetaldehyde").click(function() {
         $("#injector").hide();
@@ -51,31 +51,15 @@ $(document).ready(function(){
     });
 
     $("#plot").click(function() {
+       
         $("#graph").hide();
         $("#graph-plot").delay(1).fadeIn();
 
     });
+
+    $("#evaluate").click(function() {
+        // $("#plot-benzene").delay(1).fadeIn();
+        window.open("#plot-benzene");
+    })
 });
 
-// var sol;
-//     if(sol == benzene) {
-
-
-//         $("#evaluate").click(function() {
-//             ("#plot-benzene").delay(1).fadeIn();
-//         });
-    
-
-//     else(sol==acetaldehyde) {
-//         $("#evaluate").click(function) {
-//             ("#plot-acetaldehyde").delay(1).fadeIn();
-//         }
-//     }
-
-//     else(sol== ethyl) {
-//         $("#evaluate").click(funcion) {
-//             ("#plot-ethyl").delay(1).fadeIn();
-//         }
-    
-//     }
-// }

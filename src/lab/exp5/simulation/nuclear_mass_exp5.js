@@ -1,30 +1,39 @@
-// $(document).ready(function(){
-//     $("#sample").click(function(){
-//         $("#chem-border").show();
-//         $("#acetaldehyde").show();
-//         $("#benzene").show();
-//         $("#ethyl").show();
-//     });
-// });
+var sol = ["benzene", "acetaldehyde", "ethyl"] ;
 
+// function changeSolution() {
+//    if(sol == benzene){
+//       document.getElementById("benzene").style.visibility = "visible";
+      
 
+//    else if(sol == acetaldehyde) {
+//       document.getElementById("acetaldehyde").style.visibility = "visible" ;
 
+//    }
 
+//    else if(sol == ethyl) {
+//       document.getElementById("ethyl").style.visibility ="visibile"; 
+//    }
 
-function sample() {
+// }
 
-	var sample = "images";
-	element.innerHTML = "images/chem-border.png";
-	  
-	document.getElementById("chem-border").style.visibility = "visible";
-	var solBenzene = document.getElementById("benzene").style.visibility = "visible";
-	var solAcetaldehyde = document.getElementById("acetaldehyde").style.visibility = "visible";
-	var solEthyl = document.getElementById("ethyl").style.visibility = "visible";
-}
+// }
 
-function load() {
+function benzene() {
 
-	document.getElementById("ring").style.visibility = "visible";
-	document.getElementById() 
-
+   document.getElementById("red-injector").style.visibility = "visible";
+   var elem = document.getElementById("syringe");   
+      var pos = 0;
+      var id = setInterval(frame, 5);
+         function frame() {
+            if (pos == 345) {
+                clearInterval(id);
+                alert("Hello!");
+            } 
+            else {
+                pos++; 
+                  elem.style.left = pos + 'px'; 
+                  elem.style.left = pos + 'px'; 
+                  // alert("hello!!");
+             }
+         }
 }

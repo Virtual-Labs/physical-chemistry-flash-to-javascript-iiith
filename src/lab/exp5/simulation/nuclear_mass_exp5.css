@@ -145,11 +145,11 @@
 
 #molecule4 {
     position: absolute;
-    margin-left: 62%;
-    margin-top: 11.5%;
+    margin-left: 63%;
+    margin-top: 10%;
     width: 6.5%;
     -moz-animation-name: molecule4;
-    -moz-animation-duration: 2s;
+    -moz-animation-duration: 1.5s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-direction: alternate-reverse;
 }
@@ -157,30 +157,30 @@
 @-moz-keyframes molecule4
 {
     from{-moz-transform:rotate(90deg );}
-    to{-moz-transform:rotate(180deg );}    
+    to{-moz-transform:rotate(270deg );}    
 }
 
 #molecule5 {
     position: absolute;
     margin-left: 70%;
-    margin-top: 12.5%;
+    margin-top: 13%;
     width: 6.5%;
     -moz-animation-name: molecule5;
-    -moz-animation-duration: 2s;
+    -moz-animation-duration: 1.5s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-direction: alternate-reverse;
 }
 
 @-moz-keyframes molecule5
 {
-    from{-moz-transform:rotate(90deg );}
+    from{-moz-transform:rotate(0deg );}
     to{-moz-transform:rotate(180deg );}    
 }
 
 #molecule6 {
     position: absolute;
-    margin-left: 78%;
-    margin-top: 11.5%;
+    margin-left: 76%;
+    margin-top: 12%;
     width: 6.5%;
     -moz-animation-name: molecule6;
     -moz-animation-duration: 2s;
@@ -190,7 +190,7 @@
 
 @-moz-keyframes molecule6
 {
-    from{-moz-transform:rotate(90deg );}
+    from{-moz-transform:rotate(0deg );}
     to{-moz-transform:rotate(180deg );}    
 }
 
@@ -207,15 +207,15 @@
 
 @-moz-keyframes molecule7
 {
-    from{-moz-transform:rotate(90deg );}
+    from{-moz-transform:rotate(0deg );}
     to{-moz-transform:rotate(180deg );}    
 }
 
 #molecule8 {
     position: absolute;
-    margin-left: 69%;
-    margin-top: 18%;
-    width: 5%;
+    margin-left: 72%;
+    margin-top: 20.5%;
+    width: 6%;
     -moz-animation-name: molecule8;
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
@@ -224,24 +224,24 @@
 
 @-moz-keyframes molecule8
 {
-    from{-moz-transform:rotate(90deg );}
+    from{-moz-transform:rotate(0deg );}
     to{-moz-transform:rotate(180deg );}    
 }
 
 #molecule9 {
     position: absolute;
     margin-left: 78%;
-    margin-top: 18%;
-    width: 7%;
+    margin-top: 19%;
+    width: 6%;
     -moz-animation-name: molecule9;
-    -moz-animation-duration: 2s;
+    -moz-animation-duration: 1.5s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-direction: alternate-reverse
 }
 
 @-moz-keyframes molecule9
 {
-    from{-moz-transform:rotate(90deg );}
+    from{-moz-transform:rotate(0deg );}
     to{-moz-transform:rotate(180deg );}    
 }
 
