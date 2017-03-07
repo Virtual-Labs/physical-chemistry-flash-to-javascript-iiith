@@ -292,6 +292,7 @@
 }
 
 #blue-injector {
+    z-index: 2;
     position: absolute;
     margin-left:23%;
     margin-top: 10%; 
@@ -300,6 +301,7 @@
 }
 
 #green-injector {
+    z-index: 2;
     position: absolute;
     margin-left:23%;
     margin-top: 10%; 
@@ -327,7 +329,7 @@
     cursor: pointer;
 }
 
-#graph-plot {
+#benzene-graph, #acetaldehyde-graph, #ethyl-graph {
     z-index: 1%;
     position: absolute;
     margin-top: 34%;
@@ -342,9 +344,8 @@
     position: absolute;
     margin-top: 34%;
     margin-left: 49.5%;
-    width: 47%;
+    width: 48.5%;
     height: 45%;
-    /*display: none;   */
 }
 
 #demo {
