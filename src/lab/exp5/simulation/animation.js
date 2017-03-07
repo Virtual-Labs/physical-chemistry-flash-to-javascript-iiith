@@ -86,15 +86,8 @@
         $("#horizontal-arrows-1").delay(10).fadeIn();
         $("#horizontal-arrows-2").delay(10).fadeIn();
         $("#up-arrow").delay(10).fadeIn();
-        $("#molecule1").hide();
-        $("#molecule2").hide();
-        $("#molecule3").hide();
-        $("#molecule4").hide();
-        $("#molecule5").hide();
-        $("#molecule6").hide();
-        $("#molecule7").hide();
-        $("#molecule8").hide();
-        $("#molecule9").hide();
+        $("#molecules").hide();
+
     });
 
     $("#plot").click(function() {
