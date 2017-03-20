@@ -1,0 +1,144 @@
+#container {
+	width: 1000px;
+    height: 675px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -0.5%;
+    border: solid 1px black;
+}
+
+#border-1 {
+	position: absolute;
+	/*z-index: 4;*/
+	margin-top: -0.2%;
+	margin-left: -2.1%;
+	height: 100%;
+}
+
+#border-2 {
+	position: absolute;
+	z-index: 4;
+	margin-top: 10%;
+	margin-left: 0.2%;
+	width: 100%;
+}
+
+#aspirine {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 3%;
+	cursor: pointer;
+}
+
+#caffeine {
+	position: absolute;
+	margin-top: 17%;
+	margin-left: 3%;
+	cursor: pointer;
+}
+
+#sample {
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 14%;
+	cursor: pointer;
+}
+
+#nizol {
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 35%;
+	cursor: pointer;
+}
+
+#mortar {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 20%;
+	cursor: pointer;
+}
+
+#animated-mortar {
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 22%;
+	width: 15%;
+	display: none;
+}
+
+#detector {
+	position: absolute;
+	margin-left: 52%;
+	margin-top: 1%;
+	width: 46%;
+}
+
+#animated-detector {
+	position: absolute;
+	margin-left: 52%;
+	margin-top: 1%;
+	width: 46%;
+	display: none;
+}
+
+#spectrometer {
+	position: absolute;
+	margin-top: 38%;
+	margin-left: 13.5%;
+}
+
+#zoom-in-spec  {
+	position: absolute;
+	margin-top: 26%;
+	margin-left: 12%;
+	width: 46%;
+	display: none;
+}
+
+#start {
+	position: absolute;
+	margin-top: 57%;
+	margin-left: 4%;
+	/*width: 10%;*/
+	cursor: pointer;
+}
+
+#evaluate {
+	position: absolute;
+	margin-top: 59%;
+	margin-left: 36%;
+	cursor: pointer;
+}
+
+
+#graph-plot {
+	position: absolute;
+	margin-top: 34.5%;
+	margin-left: 55%;
+	width: 40%;
+	height: 46%;
+}
+
+#instruction{
+	position: absolute;
+	top: 48%;
+	left: 5%;
+	font-weight: bold;
+	color: brown;
+
+}
+
+#animated-disc{
+	position: absolute;
+	top: 1%;
+	left: 5%;
+	width: 40%;
+	display: none;
+}
+
+#IRplate-with-green-color{
+	position: absolute;
+	margin-top: 21%;
+	margin-left: 37%;
+
+}
