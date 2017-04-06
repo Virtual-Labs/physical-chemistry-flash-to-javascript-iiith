@@ -1,8 +1,8 @@
 #container {
 	width: 1000px;
-    height: 675px;
+    height: 670px;
     position: absolute;
-    margin-left: 12%;
+    margin-left: 9%;
     margin-top: -0.5%;
     border: solid 1px black;
 }
@@ -140,5 +140,13 @@
 	position: absolute;
 	margin-top: 21%;
 	margin-left: 37%;
+
+}
+
+#step1, #step2, #step3, #step4, #step5, #step6{
+	position: absolute;
+	margin-top: 32%;
+	margin-left:2%;
+	font: bold italic 12px Georgia, serif ;
 
 }
